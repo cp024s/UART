@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage](#usage)
+- [References](#reference)
 - [Simulation](#simulation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -35,6 +36,10 @@ Include the UART modules in your Verilog project and connect them to your desire
 
 Refer to the provided documentation and examples within the repository to understand how to use the UART transmitter and receiver modules effectively. Ensure that you set the configuration parameters correctly for your application.
 
+## References
+- [**Basics of UART** - Circuit Basics](https://www.circuitbasics.com/basics-uart-communication/)
+- [**Universal Asynchronous Receiver Transmitter (UART) Protocol** - Geeks for Geeks](https://www.geeksforgeeks.org/universal-asynchronous-receiver-transmitter-uart-protocol/)
+- [**UART: A Hardware Communication Protocol Understanding Universal Asynchronous Receiver/Transmitter** - Analog Devices](https://www.analog.com/en/analog-dialogue/articles/uart-a-hardware-communication-protocol.html)
 ## Simulation
 
 Use simulation testbenches included in the `sim` directory to test and validate the UART modules. Simulation is a crucial step to verify proper functionality before deploying the design on hardware.

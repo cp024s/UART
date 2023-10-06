@@ -11,7 +11,7 @@ module uart (
     output [7:0] rx_data,
     input rx_enable,
     input rx_in,
-    output rx_empty
+    output rx_empty,
 );
 
     // Internal Variables

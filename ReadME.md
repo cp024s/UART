@@ -64,4 +64,3 @@ We hope this UART Verilog Implementation serves as a valuable addition to your d
 ---
 
 For more information or questions, contact the project maintainer: `chandraprakashs2003@gmail.com` or feel free to pull request about the issue.
-

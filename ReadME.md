@@ -1,18 +1,25 @@
 # UART Verilog Implementation
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Usage](#usage)
-- [References](#reference)
-- [Simulation](#simulation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
 UART communication is essential for connecting and exchanging data between digital devices in many embedded systems. This repository contains a UART implementation in Verilog, offering a flexible and customizable solution for your communication needs.
+
+1. **UART Transmitter Module (TX):**
+   - Design a module that takes parallel data and converts it into a serial format suitable for transmission.
+   - Include a clock signal for synchronization and a data input for the information to be transmitted.
+   - Implement baud rate generation to determine the data transmission speed.
+   - Serialize the data and include start and stop bits as per the UART protocol.
+   - Use finite state machines or counters to manage the timing and bit generation.
+   - Utilize shift registers to shift out the serial data.
+
+2. **UART Receiver Module (RX):**
+   - Design a module to receive serial data and convert it into parallel data.
+   - Include a clock signal for synchronization and a data input for the received serial stream.
+   - Implement baud rate generation to match the transmission speed of the transmitter.
+   - Use finite state machines or counters to synchronize with the start bit.
+   - Deserialize the incoming data by recognizing the start and stop bits and shifting the bits into parallel form.
+   - Perform error checking and validation, such as checking for framing errors or data integrity.
 
 ## Features
 
